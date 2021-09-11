@@ -1,0 +1,16 @@
+<<
+   "Reset DGt List?"
+   {"Yes" "No"} 1
+   CHOOSE
+
+   IF 1 ==
+   THEN
+      IF "Yes" ==
+      THEN
+         { } "DGt" STO
+      
+      END
+   
+   END
+>>      
+    

@@ -1,0 +1,11 @@
+<<
+   "Valor Inicial: " "" INPUT OBJ>
+   "Valor Final: " "" INPUT OBJ>
+   "Período: " "" INPUT OBJ>
+
+   3 ROLLD SWAP /
+   SWAP XROOT
+   1 - 100 *
+   4 RND 
+   "Grow" >TAG
+>>

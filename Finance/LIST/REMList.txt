@@ -1,0 +1,11 @@
+<<
+   "DGt" RCL SWAP 
+
+   1 SWAP
+   START
+      REVLIST TAIL REVLIST
+   NEXT
+
+   "DGt" STO
+>>
+   

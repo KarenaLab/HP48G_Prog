@@ -1,0 +1,5 @@
+<<
+   "DGt" RCL
+   UPDIR "VPL" EVAL
+   "DGp" STO
+>>

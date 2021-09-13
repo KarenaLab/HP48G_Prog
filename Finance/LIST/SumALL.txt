@@ -1,0 +1,4 @@
+<<
+   DEPTH ->LIST SumLIST
+   2 RND
+>>

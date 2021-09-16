@@ -1,0 +1,42 @@
+<<
+   CLLCD
+   "Monte diagrama fluxo de caixa" MSGBOX
+
+   "No. Periodos:" "" INPUT OBJ>
+   1 > np cont
+
+   <<
+      0 np 
+      START
+         "Valor do " cont 1 - >STR + " periodo" + "" INPUT OBJ>
+         cont INCR
+         DROP
+      NEXT
+
+      np 1 + >LIST
+      DUP "DGp" STO
+
+      "Taxa de Juros (i%):" "" INPUT OBJ>
+      DUP "ip" STO
+
+      1 np
+      START
+         DUP
+      NEXT
+
+      np 1 + >LIST
+      100 / 1 ADD
+
+      0 
+      1 np
+      START
+         DUP 1 +
+      NEXT
+
+      np 1 + >LIST
+      ^ / SumLIST 2 RND
+
+      "VPL(" "ip" RCL >STR + ")" + >TAG
+   >>
+>>
+      

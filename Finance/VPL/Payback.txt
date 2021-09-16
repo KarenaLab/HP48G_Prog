@@ -1,0 +1,40 @@
+<<
+   IF "VPLx" EVAL 0 <
+
+   THEN
+      "DGp" RCL SIZE -> np
+   
+      <<
+         0 "DGp" RCL TAIL + "ip" 
+
+         2 np
+         START
+            DUP
+         NEXT
+
+         np ->LIST 100 / 1 ADD
+
+         0
+         2 np
+         START
+            DUP 1 +
+         NEXT
+
+         np ->LIST ^ / SumLIST 
+         1 "ip" RCL 100 / + "n" EVAL ^
+         DUP 1 - SWAP "ip" RCL 100 / * / /
+         "DGp" RCL HEAD ABS
+         "ip" RCL 100 / * SWAP / SWAP - INV
+         LN 1 "ip" RCL 100 / +
+         LN / 2 RND ABS
+      >>
+
+   ELSE
+      "N/A"
+
+   END
+
+   "PBack" ->TAG
+>>
+
+

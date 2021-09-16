@@ -1,0 +1,23 @@
+<< 
+   "n" EVAL -> np
+   << 
+      "DGp" RCL "ip" RCL
+      1 np
+      START
+         DUP
+      NEXT
+
+      np 1 + ->LIST 100 / 1 ADD
+
+      0
+      1 np
+      START
+         DUP 1 +
+      NEXT
+
+      np 1 + ->LIST
+      ^ / SumLIST
+      2 RND
+      "VPL(" "ip" RCL ->STR + ")" + ->TAG
+   >>
+>> 

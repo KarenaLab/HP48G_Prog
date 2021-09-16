@@ -1,0 +1,66 @@
+<< 
+   "DGp" RCL SIZE 1 -
+   1 -> np cont
+   <<
+      "DGp" RCL
+ 
+      0 np
+      START
+         DUP HEAD
+         SWAP TAIL SWAP DUP 0 > * SWAP
+      NEXT
+
+      DROP
+      np 1 + ->LIST
+      "ip" RCL
+
+      1 np
+      START
+         START DUP
+      NEXT
+
+      np 1 +
+      ->LIST 100 / 1 ADD
+
+      0
+      1 np
+      START
+         DUP 1 +
+      NEXT
+
+      np 1 +
+      ->LIST REVLIST ^ *
+      SumLIST "DGp" RCL
+
+      0 np
+      START
+         DUP HEAD
+         SWAP TAIL SWAP DUP 0 < * SWAP
+      NEXT
+
+      DROP
+      1 + ->LIST "ip" RCL 
+
+      1 np
+      START
+         DUP
+      NEXT
+
+      np 1 +
+      ->LIST 100 / 1 ADD
+
+      0
+      1 np
+      START
+         DUP 1 +
+      NEXT
+
+      np 1 +
+      ->LIST ^ / SumLIST NEG /
+      "n" EVAL INV ^1 - 100 * 3 RND
+      "MTIR" ->TAG
+
+   >>
+>>
+
+      

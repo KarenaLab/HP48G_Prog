@@ -1,0 +1,10 @@
+<<
+   "Valor Financiado:" "" INPUT OBJ->
+   "Taxa de Juros (i%):" "" INPUT OBJ->
+   "No. Períodos:" "" INPUT OBJ->
+   
+   SWAP 100 / DUP 3 ROLL SWAP 1 +
+   SWAP ^ DUP 1 - 3 ROLLD * / / 
+   2 RND
+   "PMT" ->TAG
+>>

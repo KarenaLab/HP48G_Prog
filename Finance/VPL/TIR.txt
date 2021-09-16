@@ -1,0 +1,67 @@
+<<
+   CLLCD
+   " TIR Calculation" 2 DISP
+   7 FREEZE
+
+   "ip" RCL - 1 "ip" STO
+
+   DO
+      "ip" RCL 1 + "ip" STO
+      "VPLx" EVAL
+      DUP DTAG
+      " VPL = " SWAP + 5 DISP
+      "   i = " "ip" RCL + 4 DISP
+
+      .05 WAIT
+
+   UNTIL
+      0 >
+   
+   END
+
+   DO
+      "ip" RCL .1 - "ip" STO
+      "VPLx" EVAL
+      DUP DTAG
+      " VPL = " SWAP + 5 DISP
+      "   i = " "ip" RCL + 4 DISP
+
+      .05 WAIT
+
+   UNTIL
+      0 <
+
+   END
+
+   DO
+      "ip" RCL .01 + "ip" STO
+      "VPLx" EVAL
+      DUP DTAG
+      " VPL = " SWAP + 5 DISP
+      "   i = " "ip" RCL + 4 DISP
+
+      .05 WAIT
+
+   UNTIL
+      0 >
+
+   END
+
+   DO
+      "ip" RCL .001 - "ip" STO
+      "VPLx" EVAL
+      DUP DTAG
+      " VPL = " SWAP + 5 DISP
+      "   i = " "ip" RCL + 4 DISP
+
+      .05 WAIT
+
+   UNTIL
+      0 <
+
+   END
+
+   "ip" STO
+   2400 .04 BEEP
+>>
+

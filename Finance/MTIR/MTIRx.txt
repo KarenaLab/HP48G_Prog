@@ -1,0 +1,58 @@
+<<
+   { } "DG" RCL DUP
+
+   SIZE 1 SWAP
+   START
+      DUP TAIL SWAP HEAD DUP 
+      0 > * 3 ROLL 
+      SWAP + SWAP
+   NEXT
+   DROP 
+
+   1 "DG" RCL SIZE
+   START
+      "ir" RCL
+   NEXT
+ 
+   "DG" RCL SIZE ->LIST
+   100 / 1 ADD
+
+   0
+   1 "DG" RCL SIZE 1 - 
+   START
+      DUP 1 +
+   NEXT
+   "DG" RCL SIZE
+   ->LIST REVLIST ^ *
+   SumLIST
+
+   { } 
+   "DG" RCL DUP SIZE 1 SWAP
+   START
+      DUP TAIL SWAP HEAD DUP
+      0 < * 
+      3 ROLL SWAP + SWAP
+   NEXT
+   DROP
+
+   1 "DG" RCL SIZE
+   START
+      "is" RCL
+   NEXT
+
+   "DG" RCL SIZE ->LIST
+   100 / 1 ADD
+
+   0
+   1 "DG" RCL SIZE 1 -
+   START
+      DUP 1 +
+   NEXT
+
+   "DG" RCL SIZE
+   ->LIST ^ /
+   SumList NEG /
+   "DG" RCL SIZE 1 -
+   INV ^ 1 - 100 * 3 RND
+   "MTIR" ->TAG
+>>

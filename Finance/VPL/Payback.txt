@@ -26,7 +26,8 @@
          "DGp" RCL HEAD ABS
          "ip" RCL 100 / * SWAP / SWAP - INV
          LN 1 "ip" RCL 100 / +
-         LN / 2 RND ABS
+         LN / 
+	 2 RND ABS
       >>
 
    ELSE
@@ -36,5 +37,3 @@
 
    "PBack" ->TAG
 >>
-
-

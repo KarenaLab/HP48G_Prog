@@ -20,4 +20,4 @@
       2 RND
       "VPL(" "ip" RCL ->STR + ")" + ->TAG
    >>
->> 
+>>

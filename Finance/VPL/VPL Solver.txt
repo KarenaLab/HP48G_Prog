@@ -34,9 +34,9 @@
       NEXT
 
       np 1 + >LIST
-      ^ / SumLIST 2 RND
+      ^ / SumLIST 
+      2 RND
 
       "VPL(" "ip" RCL >STR + ")" + >TAG
    >>
 >>
-      

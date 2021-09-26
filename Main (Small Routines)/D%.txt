@@ -1,0 +1,6 @@
+<<
+   DUP2 SWAP
+   - 3 ROLLD 2 PICK
+   - SWAP /
+   4 RND
+>>

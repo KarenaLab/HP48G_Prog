@@ -1,0 +1,6 @@
+<<
+   CLLCD
+   "Number Viewing" 1 DISP
+
+   7 FREEZE
+>>

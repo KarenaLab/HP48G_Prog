@@ -1,0 +1,6 @@
+<<
+   "List" RCL DUP
+   SumLIST SWAP SIZE /
+   "Acc" RCL RND
+   "Avg" ->TAG
+>>

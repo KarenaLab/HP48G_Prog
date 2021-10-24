@@ -1,0 +1,7 @@
+<<
+   "List" RCL DUP DUP SumLIST SWAP
+   SIZE DUP 4 ROLLD / - 2 ^ SWAP
+   / SumLIST SQRT
+   "Acc" RCL RND
+   "StdDev" ->TAG
+>>

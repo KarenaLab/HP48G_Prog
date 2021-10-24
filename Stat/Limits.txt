@@ -1,0 +1,10 @@
+<<
+   "Avg" EVAL
+   "StdDev" EVAL DUP2
+   3 * +
+   "Upper" ->TAG 3 ROLLD
+   3 * -
+   "Lower" ->TAG
+   DUP2 -
+   "Range" ->TAG
+>>

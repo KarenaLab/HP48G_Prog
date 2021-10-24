@@ -1,0 +1,3 @@
+<<
+   DEPTH ->LIST "List" STO
+>>

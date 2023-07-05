@@ -1,5 +1,0 @@
-<<
-   DUP IP 60 X
-   SWAP FP 100 X +
->>
-

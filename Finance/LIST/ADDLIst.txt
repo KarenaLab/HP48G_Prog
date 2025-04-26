@@ -1,0 +1,15 @@
+<<
+   -> num cont
+   <<
+      1 cont
+      START
+         num
+      NEXT
+
+      cont ->LIST
+      "DGt" RCL SWAP +
+      "DGt" STO
+    >>
+>>
+
+

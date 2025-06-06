@@ -1,5 +1,0 @@
-<<
-   "Flags" RCL STOF
-   "Keys" RCL STOKEYS
-   "Restore OK" MSGBOX
->>

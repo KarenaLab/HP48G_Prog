@@ -1,5 +1,0 @@
-<<
-   SWAP DUP 1 SWAP -
-   * SWAP / SQRT
-   6 RND
->>

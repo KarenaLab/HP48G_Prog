@@ -1,0 +1,5 @@
+<<
+   RCLKEYS "Keys" STO
+   RCLF "Flags" STO
+   "Backup OK" MSGBOX
+>>

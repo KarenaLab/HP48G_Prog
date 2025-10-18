@@ -1,0 +1,9 @@
+<<
+"Taxa acc:" "" INPUT OBJ>
+"No. meses:" "" INPUT OBJ>
+
+100 / 1 + SWAP XROOT
+12 ^
+1 - 100 *
+3 RND
+>>

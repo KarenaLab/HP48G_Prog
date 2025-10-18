@@ -1,0 +1,14 @@
+<< 
+WHILE 
+    DEPTH 1 <
+
+REPEAT
+    100 / 1 +
+    SWAP 100 / 1 +
+    *
+    1 - 100 /
+
+END
+
+4 RND
+>>

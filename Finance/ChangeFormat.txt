@@ -1,5 +1,12 @@
-<< IF -49 FS? 0 ==
-      THEN 2 FIX
-      ELSE STD
-   END
+<< 
+IF 
+    -49 FS? 0 ==
+
+THEN 
+    2 FIX
+
+ELSE 
+    STD
+
+END
 >>

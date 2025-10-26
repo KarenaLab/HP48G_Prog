@@ -1,5 +1,6 @@
 <<
    CLLCD
+   
    "  Cash Flow Analysis" 2 DISP
    "     i = " "ip" RCL + 4 DISP
    "   VPL = " "VPLx" EVAL DTAG + 5 DISP
@@ -9,4 +10,5 @@
    .2 WAIT 
    2400 .04 BEEP
    7 FREEZE
+
 >>

@@ -1,5 +1,6 @@
 << 
    "n" EVAL -> np
+   
    << 
       "DGp" RCL "ip" RCL
       1 np
@@ -19,5 +20,6 @@
       ^ / SumLIST
       2 RND
       "VPL(" "ip" RCL ->STR + ")" + ->TAG
+   
    >>
->>
+>> 

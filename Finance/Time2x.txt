@@ -1,4 +1,6 @@
 <<
    100 / 1 +
    2 LOG SWAP LOG /
+
+   3 RND
 >>
